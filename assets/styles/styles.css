@@ -76,7 +76,7 @@ div{
 .card__header_title{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 8px;
 }

@@ -19,7 +19,7 @@ export default function cardTemplate(data) {
 
                 </div>
 
-            </div>
+            </div> 
 
             <img class="card__header_tumbnail" src="${data?.tumbnail}">
 

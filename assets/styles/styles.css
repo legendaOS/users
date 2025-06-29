@@ -112,3 +112,52 @@ div{
 .button{
     background-color: green;
 }
+
+.card__footer{
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card__footer_text{
+    height: 0px;
+}
+
+.card__footer_text_active{
+    height: auto;
+}
+
+.button__primary{
+    color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button__primary:hover{
+    background-color: #00000090;
+}
+
+.card__wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.card__footer_additional{
+    height: 100px;
+}
+
+.card__footer_additional--active{
+    height: 200px
+}

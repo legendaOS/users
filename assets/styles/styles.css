@@ -24,6 +24,8 @@ div{
     padding: 10px;
 }
 
+
+
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -179,4 +181,8 @@ div{
 
 .card__footer_additional--active{
     height: 200px
+}
+
+.pages__wrapper{
+    flex-direction: row;
 }
